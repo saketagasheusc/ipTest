@@ -29,7 +29,7 @@ x = 0;
 #tests if tuples in splitIP are in range
 for x in range (0, 3):
     if splitIP[x] > 256 and splitIP[x] < 0:
-        print("Not in range.")
+        print("Octets not in range.")
         isIP = 0
 
 #prints result
